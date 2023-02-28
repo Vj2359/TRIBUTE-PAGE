@@ -1,0 +1,124 @@
+#INDEX.HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>The tribute website | Sir ratan Tata</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"> 
+    <div class="content">       
+      <section class="top_section" >
+        <div class="img_container">
+            <img src="./img/ratan tata.jpg" alt="tribute"/>
+    </div>
+<div>
+    <h1>Sir ratan Tata</h1>
+</div>
+      </section>
+      <section class="about_section"> 
+       <h3>Ratan Tata Is Called A Gem Of India! </h3>
+       <p>
+        Ratan Tata is not just Tata’s chairman but a well-versed patriot who has not
+        just helped his company grow but also laid the foundation for the group to
+        compete at the global level. Ratan Tata’s Tata Group has taken India on the
+         global map as an economic force to be reckoned with and has helped India
+        survive some of its most challenging times. Let’s look at a few things that 
+        prove why he is the Gem.
+    </p>
+    <p>
+        "   " Ratan Tata never allows the mistreatment of men and women. He is known to be
+         easily accessible and communicate with workers and who’s who of power list
+          with the same dignity and love. There have been many such instances and experiences 
+          of Ratan Tata treating every individual with a great amount of respect at any given 
+          place and time. Remember the 26/11 attacks, here is what Ratan Tata did for the 
+          employees after the attack at the Taj Hotel
+    </p>    
+    </section>
+    <section class="Biography_section">
+        <h3>Biography</h3>
+        <li>:-Ratan Tata received the Padma Bhushan in 2000 
+            and Padma Vibhushan in 2008, the third and second
+             highest civilian honours awarded by the Government
+            of India</li>
+            <li>:-The third and second
+                highest civilian honours awarded by the Government
+               of India</li>
+               <li>:-Tata has also received various state civilian 
+                honours like 'Maharashtra Bhushan' in 2006 for his
+                 huge work in the public administration in Maharashtra</li>
+    </section>
+    </div>
+    </div>
+</body>
+</html>
+
+
+
+
+#STYLE.CSS
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+.container{
+background-color: aqua;
+min-height: 100vh;
+border: 10px solid black;
+}
+.top_section{
+ margin-top: 100px;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+
+}
+.content{
+    max-width: 900px;
+    margin: auto;
+}
+.img_container,img{
+border-radius: 15%;
+
+width: 300px;
+height: 320px;
+}
+.top_section h1{
+    font-size: 60px;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+.about_section h3{
+font-size: 60px;
+font-weight: 400;
+margin-bottom: 20px;
+
+}
+.about_section p{
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 1.2px;
+text-align: justify;
+}
+.Biography_section{
+margin-top: 50px;
+   
+}
+.Biography_section h3{
+margin-bottom: 20px;
+font-size: 30px;
+}
+.Biography_section ul{
+    margin-left: 50px;
+} 
+.Biography_section li{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
